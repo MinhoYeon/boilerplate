@@ -32,4 +32,4 @@ const userSchema = mongoose.Schema({
 
 const User = mongoose.model('User', userSchema)
 
-module.exporth = {User}
+module.exports = {User}
